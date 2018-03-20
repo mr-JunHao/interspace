@@ -13,6 +13,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "formidable": "^1.2.1",
     "normalize.css": "^8.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
@@ -73,5 +75,18 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".postcssrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-JunHao/interspace.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-JunHao/interspace/issues"
+  },
+  "homepage": "https://github.com/mr-JunHao/interspace#readme"
 }
